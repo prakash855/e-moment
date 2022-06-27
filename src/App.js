@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     setName(localStorage.getItem("userName"));
-  }, [name]);
+  });
 
   return (
     <div className="App">
