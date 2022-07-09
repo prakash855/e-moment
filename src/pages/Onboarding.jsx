@@ -1,6 +1,6 @@
 import React from "react";
 import { useInfo } from "../context/info-context";
-import { nameFormat } from "../utils/nameFormat";
+import { nameFormat } from "../utils";
 import style from "./main.module.css";
 
 const Onboarding = () => {

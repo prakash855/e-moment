@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "./App.css";
 import { useInfo } from "./context/info-context";
+import Hero from "./pages/Hero";
 import Onboarding from "./pages/Onboarding";
 
 function App() {
@@ -10,11 +11,7 @@ function App() {
     setName(localStorage.getItem("userName"));
   });
 
-  return (
-    <div className="App">
-      {name ? `Hi ${name}, you are most welcome` : <Onboarding />}
-    </div>
-  );
+  return <div className="App">{name ? <Hero /> : <Onboarding />}</div>;
 }
 
 export default App;

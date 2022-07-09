@@ -1,8 +1,4 @@
 .onboarding {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .welcome {
@@ -12,8 +8,27 @@
 .name {
   border: none;
   border-bottom: 1px solid;
-  width: 80%;
+  width: 100%;
   outline: none;
   font-size: 3rem;
   text-align: center;
+}
+
+.focus,
+.quotes {
+  font-size: 1.5rem;
+}
+
+.welcomeMessage {
+  font-size: 3rem;
+}
+
+.time {
+  text-align: center;
+}
+
+.timeFormat {
+  letter-spacing: 5px;
+  font-size: 8rem;
+  font-weight: 500;
 }
